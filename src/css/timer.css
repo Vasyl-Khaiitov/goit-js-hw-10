@@ -1,0 +1,17 @@
+input {
+  width: 272px;
+  height: 40px;
+}
+
+.timer {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+.field {
+}
+.value {
+}
+.label {
+  display: flex;
+}
