@@ -7,6 +7,7 @@ import SortCss from 'postcss-sort-media-queries';
 export default defineConfig(({ command }) => {
   return {
     define: {
+         __WS_TOKEN__: JSON.stringify("your_token_value_here"),
       [command === 'serve' ? 'global' : '_global']: {},
     },
     root: 'src',
