@@ -1,0 +1,42 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+}
+
+.label-delay {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-delay {
+  height: 40px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+}
+
+.input-delay:hover {
+  border: 1px solid #000;
+}
+
+.input-delay:active {
+  border: 1px solid #4e75ff;
+}
+
+button {
+  margin-top: 24px;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 360px;
+  height: 40px;
+  border: none;
+  background: #4e75ff;
+
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+button:hover {
+  background: #6c8cff;
+}
