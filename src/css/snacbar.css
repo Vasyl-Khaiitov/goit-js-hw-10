@@ -23,7 +23,7 @@
   border: 1px solid #4e75ff;
 }
 
-button {
+.btn-snackbar {
   margin-top: 24px;
   border-radius: 8px;
   padding: 8px 16px;
@@ -37,6 +37,6 @@ button {
   color: #fff;
 }
 
-button:hover {
+.btn-snackbar:hover {
   background: #6c8cff;
 }
