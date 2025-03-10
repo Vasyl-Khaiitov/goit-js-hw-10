@@ -1,1 +1,49 @@
+.timer-div {
+  width: 500px;
+}
+.input-timer {
+  border-radius: 4px;
+  width: 272px;
+  height: 40px;
+}
 
+.input-timer:active {
+  border: 1px solid #4e75ff;
+}
+
+.btn-timer {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 75px;
+  height: 40px;
+  border: none;
+  background: #4e75ff;
+  color: #fff;
+}
+
+.btn-timer:disabled {
+  background: #cfcfcf;
+  color: #989898;
+}
+
+.btn-timer:hover {
+  background: #6c8cff;
+}
+
+.timer {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+.field {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: calc((100% - 24px) / 3);
+  gap: 24px;
+}
+.value {
+}
+.label {
+}
